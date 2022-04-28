@@ -1,0 +1,3 @@
+[submodule "ext/rust-log-parser"]
+	path = ext/rust-log-parser
+	url = https://github.com/rparjun/rust-log-parser.git

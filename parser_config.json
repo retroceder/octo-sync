@@ -1,0 +1,9 @@
+{
+  "example": "Apr 25 16:40:56 access-02 sshd[49164]: pam_unix(sshd:session): session closed for user azai_1773",
+  "regex": "^(\\w+ \\d+ \\d+:\\d+:\\d+) \\S+ sshd\\[\\d+\\]: pam_unix\\(sshd:session\\): session (closed|opened) for user (\\S+)$",
+  "matches": {
+    "1": "date",
+    "2": "state",
+    "3": "login"
+  }
+}
